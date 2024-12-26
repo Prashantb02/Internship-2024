@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - TechIndia</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .explore-grid {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .explore-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .explore-card h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .explore-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .explore-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="Screenshot 2024-12-26 103617.png" alt="TechIndia Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="news.html">News</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div class="explore-grid">
+        <div class="explore-card">
+            <h2>Tech Jobs</h2>
+            <p>Discover exciting career opportunities in India's top tech companies.</p>
+            <a href="#" class="explore-button">View Jobs</a>
+        </div>
+        <div class="explore-card">
+            <h2>Learning Resources</h2>
+            <p>Access high-quality tutorials, courses, and learning materials.</p>
+            <a href="#" class="explore-button">Start Learning</a>
+        </div>
+        <div class="explore-card">
+            <h2>Tech Events</h2>
+            <p>Stay updated with upcoming tech conferences and meetups.</p>
+            <a href="#" class="explore-button">View Events</a>
+        </div>
+    </div>
+</body>
+</html>
+
+

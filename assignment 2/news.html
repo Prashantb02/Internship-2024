@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - TechIndia</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .news-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .news-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .news-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .news-title {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .news-excerpt {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="Screenshot 2024-12-26 103617.png" alt="TechIndia Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="news.html">News</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div class="news-container">
+        <div class="news-item">
+            <div class="news-date">December 26, 2024</div>
+            <h2 class="news-title">India's Tech Sector Shows Strong Growth in Q4</h2>
+            <p class="news-excerpt">The Indian technology sector continues to demonstrate robust growth with increasing global investments and expanding job market...</p>
+            <a href="#" class="read-more">Read More →</a>
+        </div>
+
+        <div class="news-item">
+            <div class="news-date">December 25, 2024</div>
+            <h2 class="news-title">New Tech Initiatives Launched for Rural India</h2>
+            <p class="news-excerpt">Government announces new initiatives to boost technology adoption and digital literacy in rural areas...</p>
+            <a href="#" class="read-more">Read More →</a>
+        </div>
+
+        <div class="news-item">
+            <div class="news-date">December 24, 2024</div>
+            <h2 class="news-title">Major Tech Companies Expanding Operations in India</h2>
+            <p class="news-excerpt">Leading global technology companies announce plans to expand their presence in various Indian cities...</p>
+            <a href="#" class="read-more">Read More →</a>
+        </div>
+    </div>
+</body>
+</html>
